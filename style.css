@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  background: linear-gradient(to bottom, silver, whitesmoke, white);
+}
+
+#title {
+  text-align: center;
+  font-family: "Alegreya", serif;
+  margin-top: 30px;
+  font-size: 7rem;
+  color: gold;
+  text-shadow: 2px 2px 2px silver, 2px 2px 2px black, 3px 3px 3px blue;
+  margin-bottom: 2px;
+}
+
+#subtitle {
+  text-align: center;
+  font-family: "Alegreya", serif;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  font-size: 2rem;
+  color: gold;
+  text-shadow: 2px 2px 2px silver, 2px 2px 2px black, 3px 3px 3px blue;
+  margin-bottom: 122px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border: 3px solid blue;
+}
+#img-caption {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#tribute-info {
+  margin: 120px 40px 20px 40px;
+  font-family: "Sora", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 25px;
+}
+#separator {
+  padding-top: 20px;
+}
+#titlewrap {
+  background: linear-gradient(
+    to bottom,
+    rgba(100, 17, 151, 0.4),
+    rgba(197, 7, 251, 0.2)
+  );
+}
+
+#linkwrap {
+  border: 3px solid #a37821;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 3px 35px;
+  border-radius: 30px;
+  width: fit-content;
+  background: #f0bc54;
+}
+#linkwrap:hover {
+  background: #dbbd7f;
+}
+
+#linkwrap h3 {
+  font-size: 25px;
+  font-family: "Alegreya", serif;
+  color: brown;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tribute-info {
+    margin: 20px 40px 20px 40px;
+    font-size: 15px;
+  }
+
+  #linkwrap h3 {
+    font-size: 11px;
+  }
+
+  #linkwrap {
+    border: 1px solid #a37821;
+    margin-top: 10px;
+    padding: 1px 15px;
+  }
+
+  #image {
+    max-width: 80%;
+    border: 1px solid blue;
+  }
+
+  #img-caption {
+    font-size: 10px;
+  }
+
+  #title {
+    font-size: 70px;
+    margin-bottom: 0.3px;
+  }
+
+  #subtitle {
+    margin-top: 4px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #titlewrap {
+    background: linear-gradient(
+      to bottom,
+      rgba(100, 17, 151, 0.4),
+      rgba(197, 7, 251, 0.2)
+    );
+    width: 100%;
+  }
+}
